@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "F95A41E9-7E3E-4AA6-A838-B9DD1EDDFC9E"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5DBDBE7B-D1CE-4CAE-98AC-D9B7C2D216F2"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Hadith Treasure/ViewModel/HadeethCategoryViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "fetchHadeethCategories()"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "5DBDBE7B-D1CE-4CAE-98AC-D9B7C2D216F2 - 1c856dea436ff4f6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for Hadith_Treasure.HadeethCategoryViewModel.fetchHadeethCategories() async -&gt; ()"
+                  moduleName = "Hadith Treasure"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/wahidtariq/Desktop/Hadith%20Treasure/Hadith%20Treasure/ViewModel/HadeethCategoryViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "60">
+               </Location>
+               <Location
+                  uuid = "5DBDBE7B-D1CE-4CAE-98AC-D9B7C2D216F2 - 849acdb53ecefaf8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) await resume partial function for Hadith_Treasure.HadeethCategoryViewModel.fetchHadeethCategories() async -&gt; ()"
+                  moduleName = "Hadith Treasure"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/wahidtariq/Desktop/Hadith%20Treasure/Hadith%20Treasure/ViewModel/HadeethCategoryViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "40">
+               </Location>
+               <Location
+                  uuid = "5DBDBE7B-D1CE-4CAE-98AC-D9B7C2D216F2 - ebd1ace799f6a8f4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for Hadith_Treasure.HadeethCategoryViewModel.fetchHadeethCategories() async -&gt; ()"
+                  moduleName = "Hadith Treasure"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/wahidtariq/Desktop/Hadith%20Treasure/Hadith%20Treasure/ViewModel/HadeethCategoryViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "28">
+               </Location>
+               <Location
+                  uuid = "5DBDBE7B-D1CE-4CAE-98AC-D9B7C2D216F2 - 818bcf6204ca0ef3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for Hadith_Treasure.HadeethCategoryViewModel.fetchHadeethCategories() async -&gt; ()"
+                  moduleName = "Hadith Treasure"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/wahidtariq/Desktop/Hadith%20Treasure/Hadith%20Treasure/ViewModel/HadeethCategoryViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "60">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
