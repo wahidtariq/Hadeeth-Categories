@@ -12,6 +12,10 @@ class HadeethCategoryViewModel: ObservableObject {
     
     @Published var hadeethCategories = [HadeethCategoriesDataModel]()
     @Published var canShowLoader: Bool = false
+    @Published var showAlert: Bool = false
+    @Published var alertTitle: String = ""
+    @Published var alertMessage: String?
+    
     let manager = NetworkManager.shared
     
     @MainActor
@@ -21,8 +25,8 @@ class HadeethCategoryViewModel: ObservableObject {
            let categories = try await manager.fetchHadeethCategories()
             append(categories: categories)
         } catch {
-            print(error.localizedDescription)
             showLoader(false)
+            showAlert(true, error: error)
         }
     }
     
@@ -30,6 +34,14 @@ class HadeethCategoryViewModel: ObservableObject {
         DispatchQueue.main.async { [weak self] in
             self?.hadeethCategories = categories
             self?.showLoader(false)
+        }
+    }
+    
+    func showAlert(_ show: Bool, error: Error?) {
+        DispatchQueue.main.async {
+            self.alertTitle = "Hmm looks like."
+            self.alertMessage = (error as? NSError)?.localizedDescription
+            self.showAlert = true
         }
     }
     

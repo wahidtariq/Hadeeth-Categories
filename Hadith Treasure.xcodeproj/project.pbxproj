@@ -43,7 +43,6 @@
 		9ACC8ED82A21FA5A004F4247 = {
 			isa = PBXGroup;
 			children = (
-				9ACC8EFC2A2210C6004F4247 /* LoaderView.swift */,
 				9ACC8EE32A21FA5A004F4247 /* Hadith Treasure */,
 				9ACC8EE22A21FA5A004F4247 /* Products */,
 			);
@@ -98,6 +97,7 @@
 		9ACC8EF62A220936004F4247 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				9ACC8EFC2A2210C6004F4247 /* LoaderView.swift */,
 				9ACC8EE62A21FA5A004F4247 /* HadeethCategoryView.swift */,
 			);
 			path = View;

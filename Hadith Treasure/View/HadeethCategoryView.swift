@@ -19,10 +19,22 @@ struct HadeethCategoryView: View {
             }
             .navigationTitle("Categories")
         }
+        
         .onAppear {
             fetchHadeethCategories()
         }
+        
         .addLoader(loading: viewModel.canShowLoader)
+        .alert(isPresented: $viewModel.showAlert) {
+            Alert(
+                title: Text(viewModel.alertTitle),
+                message: Text(viewModel.alertMessage ?? ""),
+                primaryButton: .default(Text("Retry")) {
+                    fetchHadeethCategories()
+                },
+                secondaryButton: .cancel()
+            )
+        }
     }
     
     var hadithsListView: some View {
